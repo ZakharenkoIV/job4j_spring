@@ -1,5 +1,8 @@
 package ru.job4j.di;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class StartUI {
 
     private final Store store;
@@ -16,7 +19,7 @@ public class StartUI {
 
     public void print() {
         for (String value : store.getAll()) {
-            input.askStr(value);
+            System.out.println(input.askStr(value));
         }
     }
 }
