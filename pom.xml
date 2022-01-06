@@ -6,8 +6,8 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.job4j</groupId>
     <artifactId>job4j_spring</artifactId>
-    <packaging>war</packaging>
-    <version>0.1.0</version>
+    <packaging>jar</packaging>
+    <version>0.2.0</version>
 
     <name>job4j_spring</name>
 
@@ -33,6 +33,7 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
