@@ -7,7 +7,7 @@
     <groupId>ru.job4j</groupId>
     <artifactId>job4j_spring</artifactId>
     <packaging>war</packaging>
-    <version>0.2.0</version>
+    <version>0.3.0</version>
 
     <name>job4j_spring</name>
 
@@ -88,6 +88,12 @@
 
     <build>
         <plugins>
+            <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+            </plugin>
             <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-checkstyle-plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
